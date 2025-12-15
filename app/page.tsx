@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { getSweets } from "@/libs/api";
 import SweetCard from "@/components/SweetCard";
 import { Sweet } from "@/types/sweet";
+import ServerPinger from "@/components/ServerPinger";
 
 export default function Home() {
   const [sweets, setSweets] = useState<Sweet[]>([]);
@@ -75,6 +76,7 @@ export default function Home() {
           />
         ))}
       </div>
+      <ServerPinger />
     </main>
   );
 }
