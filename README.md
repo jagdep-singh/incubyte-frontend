@@ -195,7 +195,6 @@ Make sure to set environment variables for:
 
 AI significantly sped up development by acting as a senior reviewer and brainstorming partner. All AI-generated suggestions were reviewed, adapted, and manually implemented to ensure correctness, learning, and ownership of the final codebase.
 
-For every commit where AI assistance was used, proper **co-authorship** was added as required.
 
 ---
 ## 🌐 Deployment 
